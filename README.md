@@ -12,7 +12,7 @@ uncustomizable UI widgets.
 * Node.js and npm
 * R
 
-## To develop and run
+## Install dependencies
 Run
 
 ```
@@ -21,7 +21,8 @@ Run
 
 to install JS and R dependencies.
 
-The run 
+## Run app
+Then run 
 
 ```
 ./app.R
