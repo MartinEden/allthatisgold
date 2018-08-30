@@ -1,9 +1,9 @@
 function NavModel() {
 	const self = this;
 	self.sections = ko.observableArray([
-		"Plot", 
-		"Section B", 
-		"Section C"
+		"Survey data",
+		"Model parameters",
+		"Results"
 	]);
 	self.currentSection = ko.observable(self.sections()[0]);
 	self.onClick = function(section) {
